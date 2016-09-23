@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center; }
+
+#app-container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */
