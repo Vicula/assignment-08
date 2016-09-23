@@ -1,4 +1,6 @@
-*{ box-sizing: border-box }
+*{
+   box-sizing: border-box
+}
 
 img {
    width: 100%;
@@ -11,10 +13,96 @@ body {
    text-align: center;
    background: url(../images/images/pexels-photo-121489.jpeg) center center no-repeat;
    background-size: cover;
+
 }
 
 #app-container{
    max-width: 960px;
    margin: 0 auto;
+
+}
+
+.body_box {
    background: #fff;
+   .header_box{
+      background: url(../images/images/roomies-eating-together-bg.jpg) center center no-repeat;
+      background-size: cover;
+      color: white;
+      height: 50%;
+      padding-top: 100px;
+      margin:0;
+
+      .header_box_title {
+         padding: 0 15px;
+
+         h1 {
+            font-size: 26px;
+         }
+         p {
+            font-size: 15px;
+         }
+      }
+      .header_box_input {
+         width: 85%;
+         margin: auto;
+         height: 40px;
+         border:none;
+
+         input {
+            height: 40px;
+            border:none;
+         }
+         span {
+            border:none;
+            width: 20%;
+            color:white;
+            background: #4bd5e8;
+         }
+      }
+   }
+   .sub_header_box {
+      background: #4bd5e8;
+      margin:0;
+      color:white;
+      padding-top: 25px;
+      padding-bottom: 0px;
+      overflow: hidden;
+
+      .sub_header_but {
+         background: rgb(57,71,85);
+         margin-top: 10px;
+      }
+      .sub_header_house {
+         position: relative;
+         width: 40%;
+         right: -300px;
+         bottom:0;
+         margin: 0;
+         
+
+      }
+   }
+   .top_middle_box{
+      margin-bottom: 40px;
+
+      h2 {
+         color: #4bd5e8;
+         margin-bottom: 10px;
+      }
+      p {
+         color: gray;
+      }
+   }
+   .bottom_middle_box {
+      margin-bottom: 40px;
+
+      > p {
+         color: #4bd5e8;
+      }
+      img {
+         width: 30%;
+         margin-right:0;
+         margin: auto;
+      }
+   }
 }
