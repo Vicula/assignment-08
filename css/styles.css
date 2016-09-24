@@ -113,5 +113,22 @@ body {
         background: #394755;
         color: lightgray;
         border: none; }
+  .body_box .bottom_top_box {
+    margin-bottom: 30px; }
+    .body_box .bottom_top_box h2 {
+      color: #4bd5e8; }
+  .body_box .bottom_success_box {
+    margin-bottom: 30px; }
+    .body_box .bottom_success_box h3 {
+      color: #4bd5e8; }
+    .body_box .bottom_success_box img {
+      width: 15%;
+      margin: auto; }
+    .body_box .bottom_success_box p {
+      padding: 0 20px; }
+  .body_box .bottom_featured_box {
+    background: #fdc948; }
+  .body_box .nav_box {
+    background: #394755; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -171,4 +171,32 @@ $tablet_screen_width: 768px;
          }
       }
    }
+   .bottom_top_box {
+      margin-bottom: 30px;
+      h2 {
+         color: #4bd5e8;
+      }
+   }
+   .bottom_success_box {
+      margin-bottom: 30px;
+      h3 {
+         color: #4bd5e8;
+      }
+      img {
+         width: 15%;
+         margin: auto;
+
+      }
+      p {
+         padding: 0 20px;
+      }
+   }
+   .bottom_featured_box {
+      background: rgb(253,201,72);
+   }
+   .nav_box {
+      background: #394755;
+   }
+
+
 }
