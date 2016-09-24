@@ -22,6 +22,8 @@ body {
 
 }
 
+$tablet_screen_width: 768px;
+
 .body_box {
    background: #fff;
    .header_box{
@@ -67,6 +69,8 @@ body {
       padding-top: 25px;
       padding-bottom: 0px;
       overflow: hidden;
+      height: 250px;
+
 
       .sub_header_but {
          background: rgb(57,71,85);
@@ -76,10 +80,13 @@ body {
          position: relative;
          width: 40%;
          right: -300px;
-         bottom:0;
+         bottom:-75px;
          margin: 0;
-         
 
+      }
+      .sub_header_text {
+         position:absolute;
+         z-index: 300;
       }
    }
    .top_middle_box{
@@ -103,6 +110,65 @@ body {
          width: 30%;
          margin-right:0;
          margin: auto;
+      }
+   }
+   .middle_pic_box {
+      background: url(../images/images/happy-roomies-bg.jpg) center center no-repeat;
+      background-size: cover;
+      color: #fff;
+      padding: 50px 0;
+
+      h3 {
+         font-size: 20px;
+      }
+      .pic_box_socialmedia {
+
+         i {
+            background:#4bd5e8;
+            border-radius: 100%;
+            width:3%;
+            margin: 0 5px;
+            padding: 1 8;
+            padding-right: 20px;
+            padding-left: 5px;
+
+         }
+
+         .btn_facebook {
+            padding-left: 10px;
+            padding-right: 15px;
+         }
+
+      }
+      .middle_pic_box_top {
+         .box_top_para {
+            margin-bottom: 30px;
+         }
+
+         @media screen and (min-width: $tablet_screen_width) {
+
+            br {
+               display:none;
+            }
+         }
+
+      }
+      .middle_pic_box_bottom {
+         width: 95%;
+         margin: auto;
+         border:none;
+
+
+         input {
+            border: none;
+         }
+
+         span {
+            width: 20%;
+            background: rgb(57,71,85);
+            color:lightgray;
+            border:none;
+         }
       }
    }
 }
