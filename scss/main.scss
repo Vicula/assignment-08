@@ -193,6 +193,36 @@ $tablet_screen_width: 768px;
    }
    .bottom_featured_box {
       background: rgb(253,201,72);
+
+      .featured_room_box {
+
+         > div {
+            width: 60%;
+            margin: auto;
+            padding: 0;
+            border: 1px white solid;
+            margin-bottom: 30px;
+
+            p {
+               margin: 0;
+               float: left;
+
+            }
+
+            .featured_room_info {
+               width: 20%;
+               text-align: left;
+               float:left;
+               margin: 0;
+               cursor: default;
+               color:gray;
+            }
+            .featured_room_price {
+               margin-right: 3px;
+            }
+
+         }
+      }
    }
    .nav_box {
       background: #394755;
