@@ -61,6 +61,25 @@ $tablet_screen_width: 768px;
             background: #4bd5e8;
          }
       }
+      @media screen and (min-width: $tablet_screen_width){
+
+         padding-top: 50px;
+
+         .header_box_title{
+            padding: 0 200px;
+            h1 {
+               font-size: 70px;
+               padding-bottom: 20px;
+            }
+            p {
+               font-size: 28px;
+               padding-bottom: 15px;
+            }
+         }
+         .header_box_input{
+            width: 75%;
+         }
+      }
    }
    .sub_header_box {
       background: #4bd5e8;
@@ -196,12 +215,19 @@ $tablet_screen_width: 768px;
 
       .featured_room_box {
 
+         .featured_top_text {
+            margin-top: 40px;
+            margin-bottom: 40px;
+         }
+
          > div {
             width: 60%;
             margin: auto;
             padding: 0;
             border: 1px white solid;
             margin-bottom: 30px;
+            margin-top: 20px;
+
 
             p {
                margin: 0;
@@ -220,12 +246,66 @@ $tablet_screen_width: 768px;
             .featured_room_price {
                margin-right: 3px;
             }
+            .featured_room_caption {
+               background: #fff;
+               width: 100%;
+               height: 40px;
+               border-radius: 0;
+            }
+            .featured_room_profile {
+
+               width: 10%;
+               position: absolute;
+               right: 25%;
+               top: 60%;
+
+               img {
+                  border-radius: 100%;
+                  border: 1px white solid;
+               }
+            }
 
          }
+
+      }
+      .featured_room_btn {
+         background: #394755;
+         margin-bottom: 20px;
       }
    }
    .nav_box {
       background: #394755;
+      color: #fff;
+
+
+      img {
+         width: 30%;
+         margin: auto auto;
+         margin-top: 20px;
+         margin-bottom: 20px;
+      }
+
+      i {
+         border: 1px white solid;
+         border-radius: 100%;
+         width: 3%;
+         margin: 0 5px;
+         padding: 1 8;
+         padding-right: 15px;
+         padding-left: 5px;
+      }
+
+      ul {
+         list-style-type: none;
+         margin: auto;
+         margin-top: 10px;
+         padding-left: 0;
+
+         li {
+            display: inline-block;
+            margin: 0 10px;
+         }
+      }
    }
 
 

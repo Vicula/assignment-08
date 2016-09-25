@@ -44,6 +44,19 @@ body {
         width: 20%;
         color: white;
         background: #4bd5e8; }
+    @media screen and (min-width: 768px) {
+      .body_box .header_box {
+        padding-top: 50px; }
+        .body_box .header_box .header_box_title {
+          padding: 0 200px; }
+          .body_box .header_box .header_box_title h1 {
+            font-size: 70px;
+            padding-bottom: 20px; }
+          .body_box .header_box .header_box_title p {
+            font-size: 28px;
+            padding-bottom: 15px; }
+        .body_box .header_box .header_box_input {
+          width: 75%; } }
   .body_box .sub_header_box {
     background: #4bd5e8;
     margin: 0;
@@ -128,12 +141,16 @@ body {
       padding: 0 20px; }
   .body_box .bottom_featured_box {
     background: #fdc948; }
+    .body_box .bottom_featured_box .featured_room_box .featured_top_text {
+      margin-top: 40px;
+      margin-bottom: 40px; }
     .body_box .bottom_featured_box .featured_room_box > div {
       width: 60%;
       margin: auto;
       padding: 0;
       border: 1px white solid;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      margin-top: 20px; }
       .body_box .bottom_featured_box .featured_room_box > div p {
         margin: 0;
         float: left; }
@@ -146,7 +163,45 @@ body {
         color: gray; }
       .body_box .bottom_featured_box .featured_room_box > div .featured_room_price {
         margin-right: 3px; }
+      .body_box .bottom_featured_box .featured_room_box > div .featured_room_caption {
+        background: #fff;
+        width: 100%;
+        height: 40px;
+        border-radius: 0; }
+      .body_box .bottom_featured_box .featured_room_box > div .featured_room_profile {
+        width: 10%;
+        position: absolute;
+        right: 25%;
+        top: 60%; }
+        .body_box .bottom_featured_box .featured_room_box > div .featured_room_profile img {
+          border-radius: 100%;
+          border: 1px white solid; }
+    .body_box .bottom_featured_box .featured_room_btn {
+      background: #394755;
+      margin-bottom: 20px; }
   .body_box .nav_box {
-    background: #394755; }
+    background: #394755;
+    color: #fff; }
+    .body_box .nav_box img {
+      width: 30%;
+      margin: auto auto;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .body_box .nav_box i {
+      border: 1px white solid;
+      border-radius: 100%;
+      width: 3%;
+      margin: 0 5px;
+      padding: 1 8;
+      padding-right: 15px;
+      padding-left: 5px; }
+    .body_box .nav_box ul {
+      list-style-type: none;
+      margin: auto;
+      margin-top: 10px;
+      padding-left: 0; }
+      .body_box .nav_box ul li {
+        display: inline-block;
+        margin: 0 10px; }
 
 /*# sourceMappingURL=styles.css.map */
