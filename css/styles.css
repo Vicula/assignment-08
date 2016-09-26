@@ -77,6 +77,18 @@ body {
     .body_box .sub_header_box .sub_header_text {
       position: absolute;
       z-index: 300; }
+    @media screen and (min-width: 768px) {
+      .body_box .sub_header_box .sub_header_text {
+        left: 440px; }
+        .body_box .sub_header_box .sub_header_text h3 {
+          font-size: 35px; }
+        .body_box .sub_header_box .sub_header_text p {
+          font-size: 20px;
+          font-weight: 10px; }
+      .body_box .sub_header_box .sub_header_house {
+        width: 25%;
+        bottom: 0px;
+        left: 750px; } }
   .body_box .top_middle_box {
     margin-bottom: 40px; }
     .body_box .top_middle_box h2 {
@@ -84,6 +96,15 @@ body {
       margin-bottom: 10px; }
     .body_box .top_middle_box p {
       color: gray; }
+    @media screen and (min-width: 768px) {
+      .body_box .top_middle_box {
+        margin-top: 40px; }
+        .body_box .top_middle_box h2 {
+          font-size: 50px;
+          font-weight: bolder; }
+        .body_box .top_middle_box p {
+          font-size: 20px;
+          font-weight: lighter; } }
   .body_box .bottom_middle_box {
     margin-bottom: 40px; }
     .body_box .bottom_middle_box > p {
@@ -92,6 +113,16 @@ body {
       width: 30%;
       margin-right: 0;
       margin: auto; }
+    @media screen and (min-width: 768px) {
+      .body_box .bottom_middle_box img {
+        width: 100%;
+        margin: auto auto; }
+      .body_box .bottom_middle_box h4 {
+        font-size: 18px; }
+      .body_box .bottom_middle_box > p {
+        font-size: 23px;
+        margin: 30px 0;
+        margin-bottom: 60px; } }
   .body_box .middle_pic_box {
     background: url(../images/images/happy-roomies-bg.jpg) center center no-repeat;
     background-size: cover;
@@ -126,10 +157,22 @@ body {
         background: #394755;
         color: lightgray;
         border: none; }
+      @media screen and (min-width: 768px) {
+        .body_box .middle_pic_box .middle_pic_box_bottom {
+          width: 50%; } }
   .body_box .bottom_top_box {
     margin-bottom: 30px; }
     .body_box .bottom_top_box h2 {
       color: #4bd5e8; }
+    @media screen and (min-width: 768px) {
+      .body_box .bottom_top_box {
+        margin-top: 50px; }
+        .body_box .bottom_top_box h2 {
+          font-size: 50px;
+          font-weight: bolder;
+          margin-bottom: 20px; }
+        .body_box .bottom_top_box p {
+          font-size: 20px; } }
   .body_box .bottom_success_box {
     margin-bottom: 30px; }
     .body_box .bottom_success_box h3 {
@@ -139,9 +182,18 @@ body {
       margin: auto; }
     .body_box .bottom_success_box p {
       padding: 0 20px; }
+    @media screen and (min-width: 768px) {
+      .body_box .bottom_success_box {
+        margin-bottom: 160px; }
+        .body_box .bottom_success_box img {
+          width: 50%; }
+        .body_box .bottom_success_box h3 {
+          font-size: 28px; }
+        .body_box .bottom_success_box p {
+          font-size: 20px; } }
   .body_box .bottom_featured_box {
     background: #fdc948; }
-    .body_box .bottom_featured_box .featured_room_box .featured_top_text {
+    .body_box .bottom_featured_box .featured_top_text {
       margin-top: 40px;
       margin-bottom: 40px; }
     .body_box .bottom_featured_box .featured_room_box > div {
@@ -179,15 +231,25 @@ body {
     .body_box .bottom_featured_box .featured_room_btn {
       background: #394755;
       margin-bottom: 20px; }
+    @media screen and (min-width: 768px) {
+      .body_box .bottom_featured_box h3 {
+        font-size: 30px; }
+      .body_box .bottom_featured_box .featured_room_box > div p {
+        font-size: 10px; }
+      .body_box .bottom_featured_box .featured_room_box > div h6 {
+        font-size: 10px; }
+      .body_box .bottom_featured_box .featured_room_box > div .featured_room_profile {
+        right: 23%;
+        top: 55%; } }
   .body_box .nav_box {
     background: #394755;
     color: #fff; }
-    .body_box .nav_box img {
+    .body_box .nav_box .mobile_nav_box img {
       width: 30%;
       margin: auto auto;
       margin-top: 20px;
       margin-bottom: 20px; }
-    .body_box .nav_box i {
+    .body_box .nav_box .mobile_nav_box i {
       border: 1px white solid;
       border-radius: 100%;
       width: 3%;
@@ -195,13 +257,16 @@ body {
       padding: 1 8;
       padding-right: 15px;
       padding-left: 5px; }
-    .body_box .nav_box ul {
+    .body_box .nav_box .mobile_nav_box ul {
       list-style-type: none;
       margin: auto;
       margin-top: 10px;
       padding-left: 0; }
-      .body_box .nav_box ul li {
+      .body_box .nav_box .mobile_nav_box ul li {
         display: inline-block;
         margin: 0 10px; }
+    @media screen and (min-width: 768px) {
+      .body_box .nav_box .mobile_nav_box {
+        display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
